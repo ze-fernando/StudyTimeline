@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from src.config.settings import settings
-from src.routes.ai_route import route 
+from src.routes.api import route
 
 app = FastAPI(title=settings.APP_NAME)
 

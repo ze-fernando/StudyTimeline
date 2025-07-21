@@ -1,4 +1,6 @@
 from pydantic import BaseModel
+from typing import List
+
 
 class AvailableDay(BaseModel):
     day: str
